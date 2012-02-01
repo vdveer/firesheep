@@ -43,7 +43,6 @@ var Firesheep = {
   
   get captureInterface () {
     var interfaces = this.networkInterfaces;
-
     if (Preferences.isSet('firesheep.capture_interface')) {
       var iface = Preferences.get('firesheep.capture_interface');
       if (iface != null && iface != '' && iface in interfaces)
