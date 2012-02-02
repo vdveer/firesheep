@@ -1,6 +1,8 @@
 Components.utils.import("resource://gre/modules/Services.jsm");  
 Components.utils.import("resource://gre/modules/FileUtils.jsm");  
 
+// I have decided not to start (or continue learning) this addition to FireSheep, since most sites have been taking countermeasures against this kind of session hijacking.
+
 //NOT_FOR_USE//PLAYGROUND//
 //usefull info : https://developer.mozilla.org/en/Storage
 var CookieSaver = {
